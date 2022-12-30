@@ -19,3 +19,11 @@ mvn clean package
 // Run the generated jar file
 java -jar target/gol-1.0-SNAPSHOT.jar
 ```
+<br>
+
+Colors of the cells represent their living state and also their age (in generations).
+- White: dead cells 
+- Green: from 1 (dark) until 119 (bright) generations 
+- Pink: over 120 generations 
+
+![GOL preview](./images/GOL.gif)
